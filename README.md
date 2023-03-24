@@ -1,4 +1,5 @@
 # Hamming Problem
+Generate the Nth Hamming Number. A hamming number is a number of the form 2^i*3^j*5^k where i, j and k are non-negative integers.
 
 ## Files
 
