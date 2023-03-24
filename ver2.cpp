@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     lli N = std::atoll(argv[1]); // Command Line Input
     lli p2 = 0, p3 = 0, p5 = 0; // Pointer to element to multiply with 2, 3, 5
     std::vector<Hamming> arr; // Array to store Hamming Numbers
-    arr.push_back(Hamming(0, 0, 0)); // First element
+    arr.push_back(Hamming()); // First element
 
     // Generate each new Hamming number by multiplying a previous element with 2, 3 or 5
     for(lli i = 1; i < N; i++) {
